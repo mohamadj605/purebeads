@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900mm" height="600mm" viewBox="0 0 900 600">
+<desc>Name plaques 60x20 mm, 3 mm sheet. Names are live text: convert text to outlines before sending to the laser shop.</desc>
+<g id="CUT_FF0000" fill="none" stroke="#FF0000" stroke-width="0.1">
+<path d="M10 30 L70 30 L70 10 L10 10 Z"/>
+<path d="M74 30 L134 30 L134 10 L74 10 Z"/>
+<path d="M138 30 L198 30 L198 10 L138 10 Z"/>
+<path d="M202 30 L262 30 L262 10 L202 10 Z"/>
+<path d="M266 30 L326 30 L326 10 L266 10 Z"/>
+<path d="M330 30 L390 30 L390 10 L330 10 Z"/>
+<path d="M394 30 L454 30 L454 10 L394 10 Z"/>
+<path d="M458 30 L518 30 L518 10 L458 10 Z"/>
+</g>
+<g id="SCORE_0000FF" fill="none" stroke="#0000FF" stroke-width="0.1">
+</g>
+<g id="ENGRAVE_000000" fill="#000000" stroke="none">
+<text x="40" y="23" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="9" fill="#000000">Amina</text>
+<text x="104" y="23" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="9" fill="#000000">Yusuf</text>
+<text x="168" y="23" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="9" fill="#000000">Maryam</text>
+<text x="232" y="23" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="9" fill="#000000">Omar</text>
+<text x="296" y="23" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="9" fill="#000000">Ibrahim</text>
+<text x="360" y="23" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="9" fill="#000000">Layla</text>
+<text x="424" y="23" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="9" fill="#000000">Zayd</text>
+<text x="488" y="23" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="9" fill="#000000">Noor</text>
+</g>
+</svg>
