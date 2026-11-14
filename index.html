@@ -1,0 +1,1491 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luxury Masbaha, Hand-Strung in Toronto | Aqeeq House</title>
+<meta name="description" content="Heirloom masbaha (tasbih) in natural aqeeq, oud and Baltic amber with 925 sterling silver. Hand-strung in Toronto on doubled UHMWPE cord with lifetime re-stringing. Corporate and closing gifts across the GTA.">
+<meta name="theme-color" content="#0C0B0A">
+<link rel="canonical" href="https://aqeeqhouse.ca/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aqeeq House">
+<meta property="og:locale" content="en_CA">
+<meta property="og:title" content="Aqeeq House | Luxury Masbaha, Hand-Strung in Toronto">
+<meta property="og:description" content="Natural aqeeq, oud and Baltic amber masbaha with sterling silver, strung on doubled UHMWPE cord. Lifetime re-stringing warranty.">
+<meta property="og:url" content="https://aqeeqhouse.ca/">
+<meta name="twitter:card" content="summary">
+<meta name="geo.region" content="CA-ON">
+<meta name="geo.placename" content="Toronto">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23B8904F'/%3E%3Ccircle cx='16' cy='16' r='5.5' fill='%230C0B0A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        band: 'rgb(var(--b-bg) / <alpha-value>)',
+        raise: 'rgb(var(--b-raise) / <alpha-value>)',
+        ink: 'rgb(var(--b-fg) / <alpha-value>)',
+        mute: 'rgb(var(--b-mute) / <alpha-value>)',
+        accent: 'rgb(var(--b-accent) / <alpha-value>)',
+        obsidian: 'rgb(var(--obsidian) / <alpha-value>)',
+        warm: 'rgb(var(--warm) / <alpha-value>)',
+        gold: 'rgb(var(--gold) / <alpha-value>)'
+      },
+      fontFamily: {
+        display: ['var(--font-display)'],
+        body: ['var(--font-body)'],
+        mono: ['var(--font-mono)'],
+        arabic: ['var(--font-arabic)']
+      }
+    }
+  }
+};
+</script>
+<style>
+/* Layout concept: asymmetric "reference plate" editorial. Horology spec-sheet grids, gold hairlines, obsidian bands alternating with warm-stone bands. */
+:root {
+  --obsidian: 12 11 10;
+  --obsidian-2: 23 21 19;
+  --warm: 222 214 199;
+  --warm-2: 208 199 182;
+  --gold: 184 144 79;
+  --gold-hi: 214 178 112;
+  --gold-deep: 112 80 28;
+  --font-display: 'Cormorant Garamond', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-body: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-arabic: 'Amiri', 'Traditional Arabic', 'Geeza Pro', serif;
+  color-scheme: dark;
+}
+.band-dark {
+  --b-bg: var(--obsidian); --b-raise: var(--obsidian-2);
+  --b-fg: 236 229 216; --b-mute: 163 154 140;
+  --b-accent: var(--gold); --b-solid: var(--gold); --b-on-solid: var(--obsidian);
+}
+.band-warm {
+  --b-bg: var(--warm); --b-raise: var(--warm-2);
+  --b-fg: 28 25 22; --b-mute: 86 78 66;
+  --b-accent: var(--gold-deep); --b-solid: var(--obsidian); --b-on-solid: var(--warm);
+}
+.band-dark, .band-warm { color: rgb(var(--b-fg)); }
+.band { background: rgb(var(--b-bg)); }
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { background: rgb(var(--obsidian)); color: rgb(236 229 216); font-family: var(--font-body); }
+::selection { background: rgb(var(--gold) / .38); }
+section[id] { scroll-margin-top: calc(68px + env(safe-area-inset-top, 0px)); }
+html.dialog-open { overflow: hidden; }
+:focus-visible { outline: 2px solid rgb(var(--b-accent, var(--gold))); outline-offset: 3px; }
+
+.wrap {
+  width: 100%; max-width: 1280px; margin-inline: auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.skip-link { position: absolute; left: -9999px; top: 8px; z-index: 100; background: rgb(var(--gold)); color: rgb(var(--obsidian)); padding: .6rem 1rem; font-size: 14px; }
+.skip-link:focus { left: 8px; }
+
+/* Header */
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 45; background: rgb(var(--obsidian)); }
+.site-header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 40; background: rgb(var(--obsidian) / .86); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid rgb(236 229 216 / .08); transition: border-color .3s, background-color .3s; }
+.site-header.scrolled { border-bottom-color: rgb(var(--gold) / .35); background: rgb(var(--obsidian) / .94); }
+.wordmark { font-family: var(--font-display); font-weight: 600; font-size: 15px; letter-spacing: .26em; text-transform: uppercase; color: rgb(236 229 216); white-space: nowrap; }
+.navlink { font-size: 12px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: rgb(var(--b-mute)); text-decoration: none; padding: .5rem 0; border-bottom: 1px solid transparent; transition: color .2s, border-color .2s; }
+.navlink:hover { color: rgb(var(--b-fg)); border-bottom-color: rgb(var(--gold)); }
+.menu-btn { width: 44px; height: 44px; align-items: center; justify-content: center; border: 1px solid rgb(236 229 216 / .2); background: transparent; color: rgb(236 229 216); cursor: pointer; }
+
+/* Type */
+.eyebrow { font-family: var(--font-mono); font-size: 11px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: rgb(var(--b-accent)); }
+.display { font-family: var(--font-display); font-weight: 500; letter-spacing: -.012em; line-height: 1.02; text-wrap: balance; }
+.display em { font-style: italic; font-weight: 400; color: rgb(var(--b-accent)); }
+.h-hero { font-size: clamp(2.7rem, 6.4vw, 5.6rem); }
+.h-sec { font-size: clamp(2.2rem, 4.6vw, 3.9rem); }
+.lede { font-size: 1.0625rem; line-height: 1.7; color: rgb(var(--b-mute)); max-width: 60ch; font-weight: 300; }
+.mono { font-family: var(--font-mono); }
+.num { font-variant-numeric: tabular-nums; }
+
+/* Buttons */
+:where(.btn, .menu-btn) { display: inline-flex; }
+:where(.grid) { grid-template-columns: minmax(0, 1fr); }
+.btn { align-items: center; justify-content: center; gap: .6rem; white-space: nowrap; min-height: 3rem; padding: 0 1.6rem; font: 500 12.5px/1 var(--font-body); letter-spacing: .16em; text-transform: uppercase; border: 1px solid transparent; border-radius: 0; cursor: pointer; text-decoration: none; transition: background-color .2s, color .2s, border-color .2s; }
+.btn-solid { background: rgb(var(--b-solid)); color: rgb(var(--b-on-solid)); }
+.btn-solid:hover { background: rgb(var(--gold-hi)); color: rgb(var(--obsidian)); }
+.btn-line { border-color: rgb(var(--b-fg) / .4); color: rgb(var(--b-fg)); background: transparent; }
+.btn-line:hover { background: rgb(var(--b-fg)); color: rgb(var(--b-bg)); }
+.btn-sm { min-height: 2.5rem; padding: 0 1rem; }
+
+/* Chips and swatches */
+.chip { display: inline-flex; align-items: center; gap: .55rem; min-height: 2.5rem; padding: 0 .9rem; border: 1px solid rgb(var(--b-fg) / .22); font: 400 13px var(--font-body); color: rgb(var(--b-fg)); cursor: pointer; transition: border-color .2s, background-color .2s; }
+.chip:hover { border-color: rgb(var(--b-accent)); }
+.chip small { color: rgb(var(--b-mute)); font-size: 11.5px; }
+.chip-input:checked + .chip { border-color: rgb(var(--b-accent)); background: rgb(var(--b-accent) / .12); box-shadow: inset 0 0 0 1px rgb(var(--b-accent)); }
+.chip-input:focus-visible + .chip { outline: 2px solid rgb(var(--b-accent)); outline-offset: 2px; }
+.sw { display: inline-block; width: 14px; height: 14px; border-radius: 50%; border: 1px solid rgb(var(--b-fg) / .4); }
+.opt-label { font: 500 10.5px var(--font-mono); letter-spacing: .16em; text-transform: uppercase; color: rgb(var(--b-mute)); padding: 0; }
+
+/* Hero */
+.hero-glow { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(48% 52% at 82% 34%, rgb(var(--gold) / .17), transparent 70%), radial-gradient(40% 40% at 8% 90%, rgb(var(--gold) / .07), transparent 70%); }
+.plate-art { position: relative; background: radial-gradient(60% 50% at 50% 38%, rgb(var(--gold) / .16), transparent 72%), rgb(var(--obsidian)); border: 1px solid rgb(var(--b-fg) / .1); padding: 1.5rem 1.5rem 1rem; }
+.plate-art .corner { position: absolute; font: 500 10.5px var(--font-mono); letter-spacing: .18em; text-transform: uppercase; color: rgb(var(--b-mute)); }
+.plate-art .corner.tl { left: 14px; top: 12px; }
+.plate-art .corner.br { right: 14px; bottom: 12px; }
+.frame-gold { position: relative; }
+.frame-gold::after { content: ""; position: absolute; inset: 8px; border: 1px solid rgb(var(--gold) / .3); pointer-events: none; }
+.counter { background: rgb(var(--obsidian-2)); border: 1px solid rgb(var(--b-fg) / .1); border-top: 0; padding: 1.25rem 1.25rem 1.1rem; }
+
+/* Masbaha SVG */
+.mb svg { overflow: visible; }
+.mb .ring-shadow { filter: drop-shadow(0 10px 12px rgb(0 0 0 / .55)); }
+.mb .bead .rim { fill: none; stroke: transparent; stroke-width: 1.6; transition: stroke .25s; }
+.mb .bead.done .rim { stroke: rgb(var(--gold-hi) / .7); }
+.mb .bead.current .rim { stroke: rgb(var(--gold-hi)); stroke-width: 2.4; filter: drop-shadow(0 0 5px rgb(var(--gold-hi) / .95)); }
+.mb[role="button"] { cursor: pointer; touch-action: manipulation; }
+@keyframes bead-in { from { opacity: .25; transform: scale(.6); } to { opacity: 1; transform: scale(1); } }
+.mb.animate .bead { animation: bead-in .6s cubic-bezier(.2, .7, .2, 1) both; animation-delay: calc(var(--d) * 22ms); transform-box: fill-box; transform-origin: center; }
+
+/* Product plates */
+.plate { background: rgb(var(--obsidian-2)); border: 1px solid rgb(var(--b-fg) / .1); }
+.plate-name { font-family: var(--font-display); font-weight: 500; font-size: 2.1rem; line-height: 1.05; }
+.price { font-family: var(--font-display); font-weight: 500; font-size: 2.8rem; line-height: 1; font-variant-numeric: tabular-nums; }
+.specs { display: grid; }
+.specs > div { display: grid; grid-template-columns: 5.2rem minmax(0, 1fr); gap: 1rem; padding: .55rem 0; border-top: 1px solid rgb(var(--b-fg) / .1); font-size: 13px; }
+.specs dt { font: 400 10.5px var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: rgb(var(--b-mute)); padding-top: 2px; }
+.specs dd { margin: 0; color: rgb(var(--b-fg)); }
+.sheet-rows > div { display: grid; grid-template-columns: minmax(0, 7.5rem) minmax(0, 1fr); gap: 1.25rem; padding: 1rem 0; border-top: 1px solid rgb(var(--b-fg) / .16); }
+.sheet-rows dt { font: 500 11px var(--font-mono); letter-spacing: .16em; text-transform: uppercase; color: rgb(var(--b-accent)); padding-top: 3px; }
+.sheet-rows dd { margin: 0; font-size: 15.5px; line-height: 1.55; }
+.dg-badge { fill: rgb(var(--obsidian)); stroke: rgb(var(--gold)); stroke-width: 1.5; }
+.dg-letter { fill: rgb(var(--gold-hi)); font: 500 22px var(--font-mono); text-anchor: middle; dominant-baseline: central; }
+.dg-leader { stroke: rgb(var(--gold) / .7); stroke-width: 1.2; }
+
+/* Tables */
+.tbl { width: 100%; border-collapse: collapse; font-size: 14.5px; min-width: 520px; }
+.tbl th { text-align: left; font: 500 10.5px var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: rgb(var(--b-mute)); padding: .8rem .9rem .8rem 0; border-bottom: 1px solid rgb(var(--b-fg) / .3); white-space: nowrap; }
+.tbl td { padding: .95rem .9rem .95rem 0; border-bottom: 1px solid rgb(var(--b-fg) / .12); vertical-align: top; }
+.tbl td.num { white-space: nowrap; }
+.tbl tr.hl td { color: rgb(var(--b-fg)); font-weight: 500; background: rgb(var(--b-accent) / .09); }
+.tbl tr.hl td:first-child { box-shadow: inset 2px 0 0 rgb(var(--b-accent)); padding-left: .9rem; }
+
+/* Forms */
+.input { width: 100%; min-height: 2.9rem; background: rgb(var(--obsidian)); border: 1px solid rgb(var(--b-fg) / .22); color: rgb(var(--b-fg)); padding: .6rem .8rem; font: 400 15px var(--font-body); border-radius: 0; }
+textarea.input { min-height: 5.5rem; resize: vertical; }
+.input:focus { outline: 2px solid rgb(var(--b-accent)); outline-offset: 1px; border-color: rgb(var(--b-accent)); }
+.flabel { display: block; margin-bottom: .4rem; font: 500 10.5px var(--font-mono); letter-spacing: .16em; text-transform: uppercase; color: rgb(var(--b-mute)); }
+dialog.sheet { width: min(980px, calc(100vw - 24px)); max-height: calc(100dvh - 24px); margin: auto; padding: 0; border: 1px solid rgb(var(--gold) / .45); background: rgb(var(--obsidian-2)); color: rgb(var(--b-fg)); overflow: auto; }
+dialog.sheet::backdrop { background: rgb(0 0 0 / .74); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); }
+.badge { display: inline-flex; align-items: center; gap: .45rem; padding: .3rem .65rem; font: 500 10.5px var(--font-mono); letter-spacing: .14em; text-transform: uppercase; border: 1px solid rgb(var(--b-accent) / .6); color: rgb(var(--b-accent)); }
+.badge.muted { border-color: rgb(var(--b-fg) / .25); color: rgb(var(--b-mute)); }
+
+/* FAQ */
+details.faq { border-top: 1px solid rgb(var(--b-fg) / .16); }
+details.faq:last-of-type { border-bottom: 1px solid rgb(var(--b-fg) / .16); }
+details.faq summary { list-style: none; display: flex; justify-content: space-between; gap: 1.5rem; align-items: center; cursor: pointer; padding: 1.15rem 0; font-family: var(--font-display); font-size: 1.45rem; font-weight: 500; line-height: 1.2; }
+details.faq summary::-webkit-details-marker { display: none; }
+details.faq summary::after { content: "+"; font: 300 1.7rem/1 var(--font-body); color: rgb(var(--b-accent)); flex: none; }
+details.faq[open] summary::after { content: "\2212"; }
+details.faq .ans { padding: 0 0 1.4rem; color: rgb(var(--b-mute)); max-width: 62ch; line-height: 1.7; }
+
+/* Toast */
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(1.1rem + env(safe-area-inset-bottom, 0px)); z-index: 90; max-width: min(92vw, 460px); padding: .85rem 1.2rem; background: rgb(var(--obsidian-2)); color: rgb(236 229 216); border: 1px solid rgb(var(--gold) / .6); font-size: 14px; line-height: 1.45; box-shadow: 0 12px 40px rgb(0 0 0 / .5); }
+
+/* Scroll reveal: below-fold blocks start dimmed and shifted, never hidden */
+[data-rv] { transition: opacity .8s ease, transform .8s cubic-bezier(.2, .7, .2, 1); }
+.rv-pre { opacity: .55; transform: translateY(20px); }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .rv-pre { opacity: 1; transform: none; }
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://aqeeqhouse.ca/#website",
+      "url": "https://aqeeqhouse.ca/",
+      "name": "Aqeeq House",
+      "inLanguage": "en-CA",
+      "publisher": { "@id": "https://aqeeqhouse.ca/#business" }
+    },
+    {
+      "@type": "JewelryStore",
+      "@id": "https://aqeeqhouse.ca/#business",
+      "name": "Aqeeq House",
+      "url": "https://aqeeqhouse.ca/",
+      "description": "Luxury masbaha (Islamic prayer beads) in natural aqeeq, oud and Baltic amber with 925 sterling silver, hand-strung in Toronto on doubled UHMWPE cord. Corporate, closing and institutional gifting across the Greater Toronto Area.",
+      "slogan": "A masbaha built to be handed down.",
+      "email": "hello@aqeeqhouse.ca",
+      "priceRange": "$$$",
+      "currenciesAccepted": "CAD",
+      "paymentAccepted": "Credit card, debit card",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Toronto" },
+        { "@type": "City", "name": "North York" },
+        { "@type": "City", "name": "Scarborough" },
+        { "@type": "City", "name": "Etobicoke" },
+        { "@type": "City", "name": "Mississauga" },
+        { "@type": "City", "name": "Markham" },
+        { "@type": "City", "name": "Vaughan" },
+        { "@type": "City", "name": "Thornhill" },
+        { "@type": "City", "name": "Richmond Hill" },
+        { "@type": "City", "name": "Brampton" },
+        { "@type": "City", "name": "Oakville" }
+      ],
+      "knowsAbout": ["Masbaha", "Tasbih", "Islamic prayer beads", "Aqeeq", "Baltic amber", "Corporate Islamic gifting", "Real estate closing gifts"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Aqeeq House collection and gifting services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@id": "https://aqeeqhouse.ca/#aqeeq-33" } },
+          { "@type": "Offer", "itemOffered": { "@id": "https://aqeeqhouse.ca/#oud-silver-99" } },
+          { "@type": "Offer", "itemOffered": { "@id": "https://aqeeqhouse.ca/#baltic-amber-collector" } },
+          { "@type": "Offer", "itemOffered": { "@id": "https://aqeeqhouse.ca/#corporate-gifting" } }
+        ]
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://aqeeqhouse.ca/#aqeeq-33",
+      "name": "Aqeeq 33 Masbaha",
+      "sku": "AH-AQ33",
+      "category": "Prayer beads",
+      "description": "Thirty-three natural aqeeq beads with two 925 sterling silver dividers and imam, hand-strung on doubled, thermally bonded UHMWPE cord with a kazaz tassel. Includes an engraved wooden presentation box, microfibre pouch and QR authenticity card. Lifetime re-stringing.",
+      "material": "Natural aqeeq, 925 sterling silver, braided UHMWPE cord",
+      "brand": { "@type": "Brand", "name": "Aqeeq House" },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "CAD",
+        "lowPrice": "149.00",
+        "highPrice": "189.00",
+        "offerCount": 3,
+        "availability": "https://schema.org/InStock",
+        "url": "https://aqeeqhouse.ca/#collection",
+        "seller": { "@id": "https://aqeeqhouse.ca/#business" }
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://aqeeqhouse.ca/#oud-silver-99",
+      "name": "Oud & Silver 99 Masbaha",
+      "sku": "AH-OD99",
+      "category": "Prayer beads",
+      "description": "Ninety-nine aromatic agarwood (oud) beads in three sets of thirty-three, with 925 sterling silver markers and imam, hand-strung on doubled UHMWPE cord. Includes an engraved wooden presentation box, microfibre pouch and QR authenticity card. Lifetime re-stringing.",
+      "material": "Agarwood (oud), 925 sterling silver, braided UHMWPE cord",
+      "brand": { "@type": "Brand", "name": "Aqeeq House" },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "CAD",
+        "lowPrice": "249.00",
+        "highPrice": "289.00",
+        "offerCount": 2,
+        "availability": "https://schema.org/InStock",
+        "url": "https://aqeeqhouse.ca/#collection",
+        "seller": { "@id": "https://aqeeqhouse.ca/#business" }
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://aqeeqhouse.ca/#baltic-amber-collector",
+      "name": "Baltic Amber Collector Masbaha",
+      "sku": "AH-BA",
+      "category": "Prayer beads",
+      "description": "Natural Baltic amber masbaha in 33 or 99 beads, hand-graded and strung on doubled UHMWPE cord with 925 sterling silver imam and dividers. Collector's edition with engraved wooden presentation box and QR authenticity card. Lifetime re-stringing.",
+      "material": "Natural Baltic amber, 925 sterling silver, braided UHMWPE cord",
+      "brand": { "@type": "Brand", "name": "Aqeeq House" },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "CAD",
+        "lowPrice": "349.00",
+        "highPrice": "489.00",
+        "offerCount": 2,
+        "availability": "https://schema.org/InStock",
+        "url": "https://aqeeqhouse.ca/#collection",
+        "seller": { "@id": "https://aqeeqhouse.ca/#business" }
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://aqeeqhouse.ca/#corporate-gifting",
+      "name": "Corporate and institutional Islamic gifting",
+      "serviceType": "Corporate gifting",
+      "description": "Custom-engraved masbaha gift sets for Ramadan and Eid corporate gifts, real-estate closing gifts, Islamic centres and community orders. Volume pricing from ten pieces.",
+      "provider": { "@id": "https://aqeeqhouse.ca/#business" },
+      "areaServed": [
+        { "@type": "City", "name": "Toronto" },
+        { "@type": "City", "name": "North York" },
+        { "@type": "City", "name": "Scarborough" },
+        { "@type": "City", "name": "Mississauga" },
+        { "@type": "City", "name": "Markham" }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div id="app" class="band band-dark font-body antialiased">
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap flex h-[68px] items-center justify-between gap-4">
+    <a href="#top" class="flex items-center gap-3 no-underline" aria-label="Aqeeq House, back to top">
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
+        <defs>
+          <radialGradient id="hm" cx=".5" cy=".5" r=".62" fx=".34" fy=".3">
+            <stop offset="0" stop-color="#F0A978"/><stop offset=".55" stop-color="#C4502A"/><stop offset="1" stop-color="#4B160A"/>
+          </radialGradient>
+        </defs>
+        <circle cx="15" cy="15" r="13.5" fill="url(#hm)" stroke="#B8904F" stroke-width="1.2"/>
+        <ellipse cx="10.6" cy="9.6" rx="4.2" ry="2.4" fill="#fff" opacity=".35" transform="rotate(-30 10.6 9.6)"/>
+      </svg>
+      <span class="wordmark">Aqeeq House</span>
+    </a>
+    <nav aria-label="Primary" class="hidden items-center gap-9 md:flex">
+      <a class="navlink" href="#engineering">Engineering</a>
+      <a class="navlink" href="#collection">Collection</a>
+      <a class="navlink" href="#corporate">Corporate</a>
+      <a class="navlink" href="#warranty">Warranty</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <button type="button" class="btn btn-line btn-sm hidden sm:inline-flex" data-open-quote>Bulk quote</button>
+      <a href="#collection" class="btn btn-solid btn-sm">Shop</a>
+      <button type="button" id="menuBtn" class="menu-btn md:hidden" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 6h14M3 10h14M3 14h14"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav id="mobileNav" aria-label="Mobile" hidden class="border-t border-ink/10 md:hidden">
+    <div class="wrap flex flex-col py-3">
+      <a class="navlink py-3" href="#engineering">Engineering</a>
+      <a class="navlink py-3" href="#collection">Collection</a>
+      <a class="navlink py-3" href="#corporate">Corporate gifting</a>
+      <a class="navlink py-3" href="#warranty">Warranty lookup</a>
+      <button type="button" class="btn btn-line mt-3" data-open-quote>Request a bulk quote</button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section id="top" class="band band-dark relative overflow-hidden">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="wrap relative grid items-center gap-12 py-14 md:py-20 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,.95fr)] lg:gap-16">
+    <div data-rv>
+      <p class="eyebrow">Hand-strung in Toronto, Ontario</p>
+      <h1 class="display h-hero mt-6">A masbaha built to be <em>handed down.</em></h1>
+      <p class="lede mt-7">Natural aqeeq, oud and Baltic amber, finished in 925 sterling silver and strung by hand on doubled, thermally bonded UHMWPE cord. Every piece arrives in an engraved wooden box and is covered by lifetime re-stringing.</p>
+      <div class="mt-9 flex flex-wrap gap-3">
+        <a href="#collection" class="btn btn-solid">Shop the collection</a>
+        <button type="button" class="btn btn-line" data-open-quote>Corporate &amp; gifting</button>
+      </div>
+      <dl class="mt-12 grid grid-cols-3 gap-4 border-t border-ink/15 pt-6">
+        <div class="min-w-0"><dt class="eyebrow !text-mute">Beads</dt><dd class="display mt-2 text-[1.7rem] md:text-[2.1rem]">33 <span class="text-mute">/</span> 99</dd></div>
+        <div class="min-w-0"><dt class="eyebrow !text-mute">Silver</dt><dd class="display mt-2 text-[1.7rem] md:text-[2.1rem]">925</dd></div>
+        <div class="min-w-0"><dt class="eyebrow !text-mute">Re-stringing</dt><dd class="display mt-2 text-[1.7rem] md:text-[2.1rem]">Lifetime</dd></div>
+      </dl>
+    </div>
+
+    <figure class="relative mx-auto w-full max-w-[460px]" data-rv>
+      <div class="plate-art frame-gold">
+        <span class="corner tl">Plate I</span>
+        <span class="corner br">Aqeeq 33 &middot; 10 mm</span>
+        <div id="heroArt" class="mb mx-auto max-w-[400px] py-4" role="button" tabindex="0" aria-label="Aqeeq 33 masbaha. Press to count one bead."></div>
+      </div>
+      <figcaption class="counter">
+        <div class="flex items-baseline justify-between gap-4">
+          <p id="dhikrTr" class="mono text-[12px] uppercase tracking-[.16em] text-mute">SubḥānAllāh</p>
+          <p id="dhikrCount" class="mono num text-[1.6rem] leading-none" aria-live="polite" aria-atomic="true">00<span class="text-mute">/33</span></p>
+        </div>
+        <p id="dhikrAr" lang="ar" dir="rtl" class="font-arabic mt-2 text-center text-[2.4rem] leading-[1.5]">سُبْحَانَ اللَّهِ</p>
+        <p id="dhikrEn" class="text-center text-[13px] text-mute">Glory be to God</p>
+        <div class="mt-4 flex gap-2">
+          <button type="button" id="dhikrBtn" class="btn btn-solid flex-1">Count a bead</button>
+          <button type="button" id="dhikrReset" class="btn btn-line">Reset</button>
+        </div>
+        <p id="dhikrNote" class="mt-3 text-center text-[12.5px] text-mute">Tap the beads to count your dhikr. Thirty-three, three times.</p>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<section aria-label="Highlights" class="band band-dark border-y border-ink/10">
+  <div class="wrap grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+    <div class="border-ink/10 px-0 py-6 sm:pr-6 lg:border-r">
+      <p class="display text-[1.5rem]">Natural materials</p>
+      <p class="mt-1 text-[13.5px] text-mute">Aqeeq, oud and Baltic amber. Never glass or resin.</p>
+    </div>
+    <div class="border-ink/10 px-0 py-6 sm:pl-6 sm:pr-6 lg:border-r">
+      <p class="display text-[1.5rem]">925 sterling silver</p>
+      <p class="mt-1 text-[13.5px] text-mute">Imam, dividers and tassel cap in solid silver.</p>
+    </div>
+    <div class="border-ink/10 px-0 py-6 sm:pr-6 lg:border-r lg:pl-6">
+      <p class="display text-[1.5rem]">Doubled UHMWPE</p>
+      <p class="mt-1 text-[13.5px] text-mute">Thermally bonded, tension-calibrated by hand.</p>
+    </div>
+    <div class="px-0 py-6 sm:pl-6">
+      <p class="display text-[1.5rem]">Registered by QR</p>
+      <p class="mt-1 text-[13.5px] text-mute">Authenticity and warranty card with every piece.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ENGINEERING ============ -->
+<section id="engineering" class="band band-warm py-20 md:py-28">
+  <div class="wrap">
+    <div class="grid gap-10 lg:grid-cols-12 lg:gap-14">
+      <div class="lg:col-span-5" data-rv>
+        <p class="eyebrow">Dyneema-class engineering</p>
+        <h2 class="display h-sec mt-5">The cord is the part you <em>never see.</em></h2>
+        <p class="lede mt-6">Most masbahas fail at the string. Silk frays, nylon stretches, and elastic perishes after a few months of skin oil. Ours are strung on braided UHMWPE, the fibre class sold as Dyneema&reg; and Spectra&reg;, doubled through every bead and tensioned by hand.</p>
+        <p class="lede mt-4">The knots are thermally bonded and sealed with a micro-thread burner.</p>
+      </div>
+      <div class="lg:col-span-7" data-rv>
+        <figure class="band-dark border border-ink/10 bg-band p-4 md:p-6">
+          <div id="cordDiagram"></div>
+          <figcaption class="mt-4 font-mono text-[11px] uppercase tracking-[.14em] text-mute">Fig. 1 &middot; Cross-section of the doubled-over stringing. Schematic, not to scale.</figcaption>
+          <ol class="mt-5 grid gap-x-8 gap-y-3 sm:grid-cols-2">
+            <li class="flex gap-3 text-[14px] leading-snug"><span class="mono font-medium text-accent">A</span><span><strong class="font-medium">Doubled strand.</strong> <span class="text-mute">Two passes of cord through every bead.</span></span></li>
+            <li class="flex gap-3 text-[14px] leading-snug"><span class="mono font-medium text-accent">B</span><span><strong class="font-medium">Thermal bond.</strong> <span class="text-mute">Fused, then sealed with a micro-thread burner.</span></span></li>
+            <li class="flex gap-3 text-[14px] leading-snug"><span class="mono font-medium text-accent">C</span><span><strong class="font-medium">Closed loop.</strong> <span class="text-mute">A loop, not a knot, at the point that carries the load.</span></span></li>
+            <li class="flex gap-3 text-[14px] leading-snug"><span class="mono font-medium text-accent">D</span><span><strong class="font-medium">Matched bore.</strong> <span class="text-mute">Cord diameter chosen to the bead hole.</span></span></li>
+          </ol>
+        </figure>
+      </div>
+    </div>
+
+    <div class="mt-16 grid gap-12 lg:mt-20 lg:grid-cols-12 lg:gap-14">
+      <div class="lg:col-span-5" data-rv>
+        <p class="eyebrow">Specification</p>
+        <dl class="sheet-rows mt-5">
+          <div><dt>Cord</dt><dd>Braided UHMWPE, 0.15 to 0.25 mm, chosen per bead bore.</dd></div>
+          <div><dt>Fibre</dt><dd>Up to 15 times stronger than steel, weight for weight.</dd></div>
+          <div><dt>Stringing</dt><dd>Doubled-over. Two strands through every bead, closed loop at the load point.</dd></div>
+          <div><dt>Tension</dt><dd>Calibrated so beads drape and slide freely, with no slack and no stiffness.</dd></div>
+          <div><dt>Terminal</dt><dd>Thermally bonded, then sealed with a micro-thread burner.</dd></div>
+          <div><dt>Warranty</dt><dd>Lifetime re-stringing, tied to the serial number on your card.</dd></div>
+        </dl>
+        <p class="mt-4 text-[12.5px] leading-relaxed text-mute">Dyneema and Spectra are registered trademarks of their owners. Cord strength varies by product and bead hole, so cord and bead are matched piece by piece.</p>
+      </div>
+      <div class="lg:col-span-7" data-rv>
+        <p class="eyebrow">What your last masbaha was strung on</p>
+        <div class="mt-5 overflow-x-auto">
+          <table class="tbl">
+            <thead><tr><th scope="col">Cord</th><th scope="col">Stretch over time</th><th scope="col">Skin oil and moisture</th><th scope="col">Typical failure</th></tr></thead>
+            <tbody>
+              <tr><td>Silk thread</td><td>High</td><td>Absorbs, then weakens</td><td>Frays at the bead hole</td></tr>
+              <tr><td>Nylon thread</td><td>Moderate</td><td>Yellows and loosens</td><td>Sags, then snaps</td></tr>
+              <tr><td>Elastic cord</td><td>Fatigues</td><td>Perishes</td><td>Snaps within months</td></tr>
+              <tr class="hl"><td>Doubled UHMWPE</td><td>Near zero</td><td>Unaffected</td><td>Re-strung for life</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <blockquote class="mt-10 border-l-2 border-accent pl-6">
+          <p class="display text-[1.9rem] md:text-[2.3rem]">If a cord ever lets go, we re-string the piece <em>for life.</em></p>
+          <a href="#warranty" class="btn btn-line btn-sm mt-5">Look up your warranty</a>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COLLECTION ============ -->
+<section id="collection" class="band band-dark py-20 md:py-28">
+  <div class="wrap">
+    <div class="grid gap-6 lg:grid-cols-12 lg:items-end" data-rv>
+      <div class="lg:col-span-7">
+        <p class="eyebrow">The collection</p>
+        <h2 class="display h-sec mt-5">Three references, each <em>made to order.</em></h2>
+      </div>
+      <p class="lede lg:col-span-5">Choose your bead size and tassel. Checkout is one secure Stripe page, priced in Canadian dollars. Every piece ships with an engraved box, microfibre pouch and authenticity card.</p>
+    </div>
+
+    <noscript><p class="mt-8 text-mute">Please enable JavaScript to choose options and check out.</p></noscript>
+
+    <div class="mt-12 grid gap-6 lg:grid-cols-3">
+
+      <article class="plate flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-col" data-product="aqeeq33" aria-labelledby="p-aqeeq33" data-rv>
+        <div class="plate-art !border-0 !border-b !border-ink/10 md:!border-b-0 md:!border-r lg:!border-b lg:!border-r-0">
+          <span class="corner tl">Ref. AH-AQ33</span>
+          <span class="corner br" data-size-tag>8 mm</span>
+          <div class="mb mx-auto max-w-[340px] py-5" data-art></div>
+        </div>
+        <div class="flex flex-1 flex-col gap-5 p-6 md:p-7">
+          <header>
+            <p class="eyebrow">The flagship</p>
+            <h3 id="p-aqeeq33" class="plate-name mt-2">Aqeeq 33</h3>
+          </header>
+          <p class="text-[15px] leading-relaxed text-mute">Thirty-three natural aqeeq beads, graded for depth of colour and matched in size. Two sterling dividers mark each eleven.</p>
+          <dl class="specs">
+            <div><dt>Stone</dt><dd>Natural aqeeq</dd></div>
+            <div><dt>Beads</dt><dd>33, with 2 dividers</dd></div>
+            <div><dt>Silver</dt><dd>925 imam and dividers</dd></div>
+            <div><dt>Cord</dt><dd>Doubled UHMWPE</dd></div>
+          </dl>
+          <div class="grid gap-4" data-opts></div>
+          <div class="mt-auto border-t border-ink/10 pt-5">
+            <p class="flex items-baseline gap-2"><span class="price" data-price>$149</span><span class="mono text-[11px] tracking-[.14em] text-mute">CAD</span></p>
+            <a class="btn btn-solid mt-4 w-full" data-buy href="#collection">Buy now</a>
+            <p class="mt-3 text-[12.5px] leading-relaxed text-mute">Made to order, dispatched in <span data-lead>3 to 5 business days</span>. Tax and shipping at checkout. Secure payment by Stripe.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="plate flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-col" data-product="oud99" aria-labelledby="p-oud99" data-rv>
+        <div class="plate-art !border-0 !border-b !border-ink/10 md:!border-b-0 md:!border-r lg:!border-b lg:!border-r-0">
+          <span class="corner tl">Ref. AH-OD99</span>
+          <span class="corner br" data-size-tag>8 mm</span>
+          <div class="mb mx-auto max-w-[340px] py-5" data-art></div>
+        </div>
+        <div class="flex flex-1 flex-col gap-5 p-6 md:p-7">
+          <header>
+            <p class="eyebrow">The full set</p>
+            <h3 id="p-oud99" class="plate-name mt-2">Oud &amp; Silver 99</h3>
+          </header>
+          <p class="text-[15px] leading-relaxed text-mute">Ninety-nine aromatic agarwood beads in three sets of thirty-three, marked by sterling silver dividers. The scent warms in the hand.</p>
+          <dl class="specs">
+            <div><dt>Wood</dt><dd>Aromatic agarwood (oud)</dd></div>
+            <div><dt>Beads</dt><dd>99, with 2 markers</dd></div>
+            <div><dt>Silver</dt><dd>925 imam and markers</dd></div>
+            <div><dt>Cord</dt><dd>Doubled UHMWPE</dd></div>
+          </dl>
+          <div class="grid gap-4" data-opts></div>
+          <div class="mt-auto border-t border-ink/10 pt-5">
+            <p class="flex items-baseline gap-2"><span class="price" data-price>$249</span><span class="mono text-[11px] tracking-[.14em] text-mute">CAD</span></p>
+            <a class="btn btn-solid mt-4 w-full" data-buy href="#collection">Buy now</a>
+            <p class="mt-3 text-[12.5px] leading-relaxed text-mute">Made to order, dispatched in <span data-lead>3 to 5 business days</span>. Tax and shipping at checkout. Secure payment by Stripe.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="plate flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-col" data-product="amber" aria-labelledby="p-amber" data-rv>
+        <div class="plate-art !border-0 !border-b !border-ink/10 md:!border-b-0 md:!border-r lg:!border-b lg:!border-r-0">
+          <span class="corner tl">Ref. AH-BA</span>
+          <span class="corner br" data-size-tag>33 beads</span>
+          <div class="mb mx-auto max-w-[340px] py-5" data-art></div>
+        </div>
+        <div class="flex flex-1 flex-col gap-5 p-6 md:p-7">
+          <header>
+            <p class="eyebrow">Collector&rsquo;s edition</p>
+            <h3 id="p-amber" class="plate-name mt-2">Baltic Amber Collector</h3>
+          </header>
+          <p class="text-[15px] leading-relaxed text-mute">Natural Baltic amber, hand-graded so no two pieces share the same clouding. Thirty-three beads for daily use, or ninety-nine for the full set.</p>
+          <dl class="specs">
+            <div><dt>Resin</dt><dd>Natural Baltic amber, 10 mm</dd></div>
+            <div><dt>Beads</dt><dd>33 or 99, with 2 dividers</dd></div>
+            <div><dt>Silver</dt><dd>925 imam and dividers</dd></div>
+            <div><dt>Cord</dt><dd>Doubled UHMWPE, gold kazaz</dd></div>
+          </dl>
+          <div class="grid gap-4" data-opts></div>
+          <div class="mt-auto border-t border-ink/10 pt-5">
+            <p class="flex items-baseline gap-2"><span class="price" data-price>$349</span><span class="mono text-[11px] tracking-[.14em] text-mute">CAD</span></p>
+            <a class="btn btn-solid mt-4 w-full" data-buy href="#collection">Buy now</a>
+            <p class="mt-3 text-[12.5px] leading-relaxed text-mute">Made to order, dispatched in <span data-lead>3 to 5 business days</span>. Tax and shipping at checkout. Secure payment by Stripe.</p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ IN THE BOX ============ -->
+<section id="presentation" class="band band-warm py-20 md:py-28">
+  <div class="wrap grid items-center gap-12 lg:grid-cols-12 lg:gap-16">
+    <div class="lg:col-span-7" data-rv>
+      <figure class="band-dark bg-band border border-ink/10 p-4 md:p-8">
+        <div id="boxArt"></div>
+        <figcaption class="mt-4 font-mono text-[11px] uppercase tracking-[.14em] text-mute">Illustration &middot; Engraved lid, travel pouch and authenticity card</figcaption>
+      </figure>
+    </div>
+    <div class="lg:col-span-5" data-rv>
+      <p class="eyebrow">Presentation</p>
+      <h2 class="display h-sec mt-5">It arrives like <em>an heirloom.</em></h2>
+      <p class="lede mt-6">Each masbaha is delivered in a slide-top box, cut and laser-engraved in Toronto from Baltic birch or walnut. Open it and everything you need to keep, carry and verify the piece is inside.</p>
+      <ul class="mt-8 grid gap-0">
+        <li class="border-t border-ink/20 py-4"><p class="display text-[1.5rem]">Engraved slide-top box</p><p class="mt-1 text-[14.5px] text-mute">Baltic birch or walnut, finger-jointed, with your piece&rsquo;s reference engraved on the lid.</p></li>
+        <li class="border-t border-ink/20 py-4"><p class="display text-[1.5rem]">Microfibre travel pouch</p><p class="mt-1 text-[14.5px] text-mute">Keeps stone and silver clean in a bag or coat pocket.</p></li>
+        <li class="border-y border-ink/20 py-4"><p class="display text-[1.5rem]">Authenticity and warranty card</p><p class="mt-1 text-[14.5px] text-mute">Records the material, lot and serial. The QR code opens your piece&rsquo;s warranty record.</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CORPORATE ============ -->
+<section id="corporate" class="band band-dark py-20 md:py-28">
+  <div class="wrap">
+    <div class="grid gap-12 lg:grid-cols-12 lg:gap-14">
+      <div class="lg:col-span-5" data-rv>
+        <p class="eyebrow">Corporate &amp; institutional gifting</p>
+        <h2 class="display h-sec mt-5">Gifts that carry <em>your name.</em></h2>
+        <p class="lede mt-6">From ten pieces upward, we make the same heirloom masbaha for brokerages, firms and community organisations, with your name or logo engraved on the box lid. Local delivery across the GTA.</p>
+        <ul class="mt-9 grid gap-0">
+          <li class="flex items-start justify-between gap-4 border-t border-ink/15 py-5">
+            <div class="min-w-0"><p class="display text-[1.55rem]">Ramadan &amp; Eid corporate gifts</p><p class="mt-1 text-[14.5px] text-mute">Client and staff presents, timed for the month and the festival.</p></div>
+            <button type="button" class="btn btn-line btn-sm shrink-0" data-open-quote data-occasion="Ramadan & Eid corporate gift">Quote</button>
+          </li>
+          <li class="flex items-start justify-between gap-4 border-t border-ink/15 py-5">
+            <div class="min-w-0"><p class="display text-[1.55rem]">Real-estate closing gifts</p><p class="mt-1 text-[14.5px] text-mute">A keepsake for the family receiving their keys, engraved with your brokerage.</p></div>
+            <button type="button" class="btn btn-line btn-sm shrink-0" data-open-quote data-occasion="Real-estate closing gift">Quote</button>
+          </li>
+          <li class="flex items-start justify-between gap-4 border-y border-ink/15 py-5">
+            <div class="min-w-0"><p class="display text-[1.55rem]">Institutional &amp; community orders</p><p class="mt-1 text-[14.5px] text-mute">Islamic centres, schools, wedding favours and Hajj or Umrah send-offs.</p></div>
+            <button type="button" class="btn btn-line btn-sm shrink-0" data-open-quote data-occasion="Institutional or community order">Quote</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="lg:col-span-7" data-rv>
+        <div class="border border-ink/10 bg-raise p-6 md:p-9">
+          <p class="eyebrow">Volume pricing &middot; Aqeeq 33, 8 mm</p>
+          <div class="mt-5 overflow-x-auto">
+            <table class="tbl" aria-label="Volume pricing tiers">
+              <thead><tr><th scope="col">Quantity</th><th scope="col">Volume price</th><th scope="col">Per piece</th><th scope="col">Included</th></tr></thead>
+              <tbody id="tierRows"></tbody>
+            </table>
+          </div>
+          <p class="mt-4 text-[12.5px] leading-relaxed text-mute">Indicative pricing in CAD before tax and delivery. The 99-bead and amber references are quoted the same way. Final quote confirmed by email within <span data-reply>one business day</span>.</p>
+          <div class="mt-7 flex flex-wrap gap-3">
+            <button type="button" class="btn btn-solid" data-open-quote>Request a bulk quote</button>
+            <a href="#collection" class="btn btn-line">See the pieces</a>
+          </div>
+        </div>
+
+        <div class="mt-8 grid gap-8 sm:grid-cols-2">
+          <div>
+            <p class="eyebrow">How an order runs</p>
+            <ol class="mt-4 grid gap-3 text-[14.5px]">
+              <li class="flex gap-3"><span class="mono text-accent">1</span><span>Send the quote request with quantity, occasion and date.</span></li>
+              <li class="flex gap-3"><span class="mono text-accent">2</span><span>Approve the engraving proof for the box lid.</span></li>
+              <li class="flex gap-3"><span class="mono text-accent">3</span><span>We make the set and deliver across the GTA.</span></li>
+            </ol>
+          </div>
+          <div>
+            <p class="eyebrow">Service area</p>
+            <p class="mt-4 text-[14.5px] leading-relaxed text-mute">Downtown Toronto, North York, Scarborough, Etobicoke, Mississauga, Markham, Vaughan, Thornhill, Richmond Hill, Brampton and Oakville. Delivery by arrangement; we do not operate a public storefront.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WARRANTY ============ -->
+<section id="warranty" class="band band-warm py-20 md:py-28">
+  <div class="wrap grid gap-12 lg:grid-cols-12 lg:gap-16">
+    <div class="lg:col-span-5" data-rv>
+      <p class="eyebrow">Lifetime warranty</p>
+      <h2 class="display h-sec mt-5">Every piece has <em>a record.</em></h2>
+      <p class="lede mt-6">Find the serial number under the QR code on your authenticity card and enter it here. You will see what your piece is made of, when it was strung, and that your re-stringing cover is active.</p>
+      <p class="lede mt-4">The QR code on the card opens this same record.</p>
+    </div>
+    <div class="lg:col-span-7" data-rv>
+      <div class="band-dark bg-band border border-ink/10 p-6 md:p-9">
+        <form id="warrantyForm" novalidate>
+          <label for="serial" class="flabel">Serial number</label>
+          <div class="flex flex-col gap-3 sm:flex-row">
+            <input id="serial" name="serial" class="input mono uppercase tracking-[.08em]" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="20" placeholder="AH-AQ33-0001" value="AH-AQ33-0001" aria-describedby="serialHelp">
+            <button type="submit" class="btn btn-solid sm:w-auto">Look up</button>
+          </div>
+          <p id="serialHelp" class="mt-2 text-[12.5px] text-mute">Format: AH, a product code, then four digits.</p>
+        </form>
+        <div class="mt-3 flex flex-wrap items-center gap-2" id="demoSerials" aria-label="Example serial numbers">
+          <span class="flabel !mb-0 mr-1">Try an example</span>
+          <button type="button" class="chip" data-serial="AH-AQ33-0001"><span class="mono text-[12px]">AH-AQ33-0001</span></button>
+          <button type="button" class="chip" data-serial="AH-OD99-0001"><span class="mono text-[12px]">AH-OD99-0001</span></button>
+          <button type="button" class="chip" data-serial="AH-BA33-0001"><span class="mono text-[12px]">AH-BA33-0001</span></button>
+        </div>
+        <div id="warrantyResult" class="mt-7 border-t border-ink/15 pt-7" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="band band-dark py-20 md:py-28">
+  <div class="wrap grid gap-12 lg:grid-cols-12 lg:gap-16">
+    <div class="lg:col-span-4" data-rv>
+      <p class="eyebrow">Questions</p>
+      <h2 class="display h-sec mt-5">Before you <em>order.</em></h2>
+    </div>
+    <div class="lg:col-span-8" data-rv>
+      <details class="faq">
+        <summary>How strong is the cord?</summary>
+        <div class="ans">We use braided UHMWPE cord between 0.15 and 0.25 mm, depending on the bead hole, doubled through every bead. The fibre class is up to 15 times stronger than steel by weight. Ratings vary by cord and bead, so we match the two for each piece.</div>
+      </details>
+      <details class="faq">
+        <summary>What does lifetime re-stringing cover?</summary>
+        <div class="ans">If the cord ever fails or loosens, contact us with your serial number and we re-string the piece at no charge, for the life of the piece.</div>
+      </details>
+      <details class="faq">
+        <summary>Are the stones natural?</summary>
+        <div class="ans">Aqeeq, oud and Baltic amber are natural materials, not glass or resin. The authenticity card records the material and lot for your piece, including any treatment.</div>
+      </details>
+      <details class="faq">
+        <summary>How long does an order take?</summary>
+        <div class="ans">Every piece is made to order in Toronto and dispatched in <span data-lead>3 to 5 business days</span>. Shipping is calculated at checkout.</div>
+      </details>
+      <details class="faq">
+        <summary>Which bead size should I choose?</summary>
+        <div class="ans">8 mm sits light in the hand and travels well. 10 mm is the classic proportion. 12 mm is a statement piece with more weight, available in aqeeq.</div>
+      </details>
+      <details class="faq">
+        <summary>Do you take bulk or engraved orders?</summary>
+        <div class="ans">Yes, from ten pieces, with your name or logo engraved on the box lid. <button type="button" class="underline decoration-gold underline-offset-4 hover:text-ink" data-open-quote>Request a bulk quote</button> and we reply within <span data-reply>one business day</span>.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="band band-dark border-t border-ink/10" style="background:rgb(var(--obsidian-2))">
+  <div class="wrap grid gap-10 py-14 md:grid-cols-12">
+    <div class="md:col-span-5">
+      <p class="wordmark">Aqeeq House</p>
+      <p class="mt-4 max-w-[44ch] text-[14.5px] leading-relaxed text-mute">Heirloom masbaha, hand-strung in Toronto, Ontario. A home-based studio serving the Greater Toronto Area. We do not operate a public storefront.</p>
+    </div>
+    <div class="md:col-span-3">
+      <p class="eyebrow">Explore</p>
+      <ul class="mt-4 grid gap-2 text-[14.5px]">
+        <li><a class="navlink !tracking-[.08em] !normal-case !text-[14.5px]" href="#engineering">Engineering</a></li>
+        <li><a class="navlink !tracking-[.08em] !normal-case !text-[14.5px]" href="#collection">Collection</a></li>
+        <li><a class="navlink !tracking-[.08em] !normal-case !text-[14.5px]" href="#corporate">Corporate gifting</a></li>
+        <li><a class="navlink !tracking-[.08em] !normal-case !text-[14.5px]" href="#warranty">Warranty lookup</a></li>
+      </ul>
+    </div>
+    <div class="md:col-span-4">
+      <p class="eyebrow">Contact</p>
+      <p class="mt-4 flex flex-wrap items-center gap-3 text-[14.5px]">
+        <a id="emailText" class="mono text-ink underline decoration-gold underline-offset-4" href="mailto:hello@aqeeqhouse.ca" data-email>hello@aqeeqhouse.ca</a>
+        <button type="button" class="btn btn-line btn-sm" id="copyEmail">Copy</button>
+      </p>
+      <p class="mt-5 text-[13.5px] leading-relaxed text-mute">Serving Toronto, North York, Scarborough, Etobicoke, Mississauga, Markham, Vaughan, Thornhill and Richmond Hill.</p>
+    </div>
+  </div>
+  <div class="border-t border-ink/10">
+    <div class="wrap flex flex-col gap-2 py-6 text-[12.5px] text-mute sm:flex-row sm:justify-between">
+      <p>&copy; <span id="year">2026</span> Aqeeq House. Prices in Canadian dollars. Payments processed by Stripe.</p>
+      <p>Hand-strung in Toronto.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ BULK QUOTE DIALOG ============ -->
+<dialog id="quoteDialog" class="sheet band-dark" aria-labelledby="quoteTitle">
+  <div class="relative">
+    <button type="button" id="quoteClose" class="menu-btn absolute right-3 top-3 z-10" aria-label="Close quote form">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 3l12 12M15 3L3 15"/></svg>
+    </button>
+    <div class="grid md:grid-cols-[minmax(0,1.3fr)_minmax(0,.7fr)]">
+      <div class="p-6 md:p-9">
+        <form id="quoteForm">
+          <p class="eyebrow">Corporate &amp; institutional</p>
+          <h2 id="quoteTitle" class="display mt-3 text-[2.2rem]">Request a bulk quote</h2>
+          <p class="mt-2 max-w-[50ch] text-[14.5px] text-mute">From ten pieces. Tell us what you need and we reply within <span data-reply>one business day</span>.</p>
+          <div class="mt-7 grid gap-4 sm:grid-cols-2">
+            <div><label class="flabel" for="qName">Your name</label><input class="input" id="qName" name="name" type="text" autocomplete="name" required></div>
+            <div><label class="flabel" for="qCompany">Company or organisation</label><input class="input" id="qCompany" name="company" type="text" autocomplete="organization" required></div>
+            <div><label class="flabel" for="qEmail">Email</label><input class="input" id="qEmail" name="email" type="email" autocomplete="email" required></div>
+            <div><label class="flabel" for="qPhone">Phone (optional)</label><input class="input" id="qPhone" name="phone" type="tel" autocomplete="tel"></div>
+            <div><label class="flabel" for="qProduct">Piece</label><select class="input" id="qProduct" name="product"></select></div>
+            <div><label class="flabel" for="qQty">Quantity (minimum 10)</label><input class="input num" id="qQty" name="quantity" type="number" min="10" max="2000" step="1" value="25" required inputmode="numeric"></div>
+            <div><label class="flabel" for="qOccasion">Occasion</label>
+              <select class="input" id="qOccasion" name="occasion">
+                <option>Ramadan &amp; Eid corporate gift</option>
+                <option>Real-estate closing gift</option>
+                <option>Institutional or community order</option>
+                <option>Employee or client recognition</option>
+                <option>Wedding or event favours</option>
+                <option>Hajj or Umrah send-off</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div><label class="flabel" for="qDate">Needed by</label><input class="input" id="qDate" name="needed_by" type="date"></div>
+            <div class="sm:col-span-2"><label class="flabel" for="qEngrave">Engraving on the box lid</label><input class="input" id="qEngrave" name="engraving" type="text" maxlength="60" placeholder="A name, brokerage or short line"></div>
+            <div class="sm:col-span-2"><label class="flabel" for="qNotes">Notes</label><textarea class="input" id="qNotes" name="notes" placeholder="Stone preference, tassel colour, delivery area"></textarea></div>
+            <div style="position:absolute;left:-9999px" aria-hidden="true"><label for="qHp">Leave this empty</label><input id="qHp" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+          </div>
+          <div class="mt-7 flex flex-wrap items-center gap-3">
+            <button type="submit" class="btn btn-solid">Send quote request</button>
+            <button type="button" class="btn btn-line" id="quoteCancel">Cancel</button>
+          </div>
+        </form>
+        <div id="quoteDone" hidden>
+          <p class="eyebrow" id="quoteDoneEyebrow">Request ready</p>
+          <h2 class="display mt-3 text-[2.2rem]" id="quoteDoneTitle">Your quote request</h2>
+          <p class="mt-3 max-w-[52ch] text-[14.5px] text-mute" id="quoteDoneText"></p>
+          <label class="flabel mt-6" for="quoteDoneBody">Request details</label>
+          <textarea class="input mono !text-[13px]" id="quoteDoneBody" rows="10" readonly></textarea>
+          <div class="mt-5 flex flex-wrap items-center gap-3">
+            <button type="button" class="btn btn-solid" id="quoteCopy">Copy request</button>
+            <button type="button" class="btn btn-line" id="quoteBack">Edit request</button>
+            <button type="button" class="btn btn-line" id="quoteDoneClose">Close</button>
+          </div>
+        </div>
+      </div>
+      <aside class="border-t border-ink/10 bg-raise p-6 md:border-l md:border-t-0 md:p-9" style="background:rgb(var(--obsidian))" aria-live="polite">
+        <p class="eyebrow">Indicative estimate</p>
+        <div id="qSummary" class="mt-5"></div>
+      </aside>
+    </div>
+  </div>
+</dialog>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</div>
+
+<script>
+(function () {
+'use strict';
+
+/* ==========================================================
+   CONFIG: edit these values; everything else follows.
+   ========================================================== */
+const CONFIG = {
+  email: 'hello@aqeeqhouse.ca',
+  leadTime: '3 to 5 business days',
+  quoteReply: 'one business day',
+  // POST target for the bulk quote form (Formspree, Web3Forms or your own Pages Function). Leave empty to show a copy-and-email fallback.
+  quoteEndpoint: '',
+  // Pages Function that returns warranty records. See functions/api/warranty.js.
+  warrantyEndpoint: '/api/warranty',
+  // Shows sample records when the endpoint is unreachable. Set to false before launch.
+  demoRegistry: true,
+  // One Stripe Payment Link per price point. Replace each REPLACE_ value with your buy.stripe.com link.
+  stripe: {
+    'aqeeq33:8':  'https://buy.stripe.com/REPLACE_AQEEQ33_8MM',
+    'aqeeq33:10': 'https://buy.stripe.com/REPLACE_AQEEQ33_10MM',
+    'aqeeq33:12': 'https://buy.stripe.com/REPLACE_AQEEQ33_12MM',
+    'oud99:8':    'https://buy.stripe.com/REPLACE_OUD99_8MM',
+    'oud99:10':   'https://buy.stripe.com/REPLACE_OUD99_10MM',
+    'amber:33':   'https://buy.stripe.com/REPLACE_AMBER_33',
+    'amber:99':   'https://buy.stripe.com/REPLACE_AMBER_99'
+  },
+  // Volume discounts for bulk orders.
+  tiers: [
+    { min: 10, max: 24, off: 0.10, label: '10 to 24', includes: 'Choice of stone, tassel and box wood' },
+    { min: 25, max: 49, off: 0.15, label: '25 to 49', includes: '+ Name or logo engraved on every box lid' },
+    { min: 50, max: null, off: 0.20, label: '50 or more', includes: '+ Individually named authenticity cards' }
+  ]
+};
+
+/* ---------- helpers ---------- */
+const $ = (s, r) => (r || document).querySelector(s);
+const $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
+const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const money = new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+const money2 = new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' });
+const SVGNS = 'http://www.w3.org/2000/svg';
+function el(name, attrs, parent) {
+  const n = document.createElementNS(SVGNS, name);
+  if (attrs) for (const k in attrs) n.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(n);
+  return n;
+}
+function rng(seed) {
+  return function () {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+let toastTimer;
+function toast(msg) {
+  const t = $('#toast');
+  t.textContent = msg; t.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function () { t.hidden = true; }, 4200);
+}
+function selectNode(node) {
+  const r = document.createRange(); r.selectNodeContents(node);
+  const s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+}
+function copyText(text, fallbackNode) {
+  const done = function () { toast('Copied to clipboard.'); };
+  const fail = function () {
+    if (fallbackNode) {
+      if (fallbackNode.select) fallbackNode.select(); else selectNode(fallbackNode);
+    }
+    toast('Press Ctrl+C or Cmd+C to copy the selected text.');
+  };
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, fail);
+    else fail();
+  } catch (e) { fail(); }
+}
+
+/* config-driven copy */
+$$('[data-lead]').forEach(function (n) { n.textContent = CONFIG.leadTime; });
+$$('[data-reply]').forEach(function (n) { n.textContent = CONFIG.quoteReply; });
+$$('[data-email]').forEach(function (n) { n.textContent = CONFIG.email; if (n.tagName === 'A') n.href = 'mailto:' + CONFIG.email; });
+$('#year').textContent = new Date().getFullYear();
+
+/* ==========================================================
+   MASBAHA ILLUSTRATION
+   ========================================================== */
+const MATERIALS = {
+  aqeeq: [['#F0A978', '#C4502A', '#4B160A'], ['#E8956A', '#B2401F', '#3F1108'], ['#F2B089', '#CC5B33', '#561B0D']],
+  oud: [['#8C6B4B', '#47301D', '#140B06'], ['#7B5C3E', '#3C2616', '#100804'], ['#9A7855', '#523722', '#190E08']],
+  'amber-cognac': [['#F2B15E', '#BF6A17', '#5E2C06'], ['#EAA24A', '#B05E12', '#4F2305'], ['#F7C27A', '#C9771F', '#6A340A']],
+  'amber-honey': [['#FFDB8A', '#E0A02B', '#8A5A0C'], ['#FFD27A', '#D79A25', '#7E510A'], ['#FFE5A0', '#E9B13E', '#946212']],
+  'amber-butterscotch': [['#FFF0B8', '#EDC15A', '#A8801F'], ['#FFE9A4', '#E4B84E', '#9C7519'], ['#FFF6CC', '#F2CB6A', '#B58A25']]
+};
+const TASSEL_COLORS = {
+  oxblood: ['#7A1F27', '#4E1117'], midnight: ['#2A3B6B', '#141E3A'], ivory: ['#E9E0C9', '#BDB293'], gold: ['#C9A15B', '#8E6B2E']
+};
+let UID = 0;
+
+function buildMasbaha(host, o) {
+  const count = o.count, every = o.every, scale = o.scale || 1;
+  const shape = count > 40 ? { rx: 104, ry: 168 } : { rx: 112, ry: 136 };
+  const rx = shape.rx * scale, ry = shape.ry * scale, cx = 200, cy = 176;
+  const uid = 'm' + (++UID);
+  const pal = MATERIALS[o.material];
+  const tas = TASSEL_COLORS[o.tassel] || TASSEL_COLORS.gold;
+  const rand = rng(count * 131 + o.material.length * 17 + 7);
+
+  const svg = el('svg', { viewBox: '0 0 400 510', role: 'img', 'aria-label': o.label || 'Masbaha illustration', class: 'block h-auto w-full' });
+  const defs = el('defs', {}, svg);
+  pal.forEach(function (st, k) {
+    const g = el('radialGradient', { id: uid + '-b' + k, cx: .5, cy: .5, r: .62, fx: .34, fy: .3 }, defs);
+    [[0, st[0]], [.55, st[1]], [1, st[2]]].forEach(function (p) { el('stop', { offset: p[0], 'stop-color': p[1] }, g); });
+  });
+  const sg = el('linearGradient', { id: uid + '-s', x1: 0, y1: 0, x2: 1, y2: 1 }, defs);
+  [[0, '#F6F5F1'], [.35, '#BDBCB6'], [.7, '#72716C'], [1, '#D8D7D1']].forEach(function (p) { el('stop', { offset: p[0], 'stop-color': p[1] }, sg); });
+
+  /* arc-length table of the ring */
+  const M = 720, pts = []; let acc = 0;
+  for (let j = 0; j <= M; j++) {
+    const p = 2 * Math.PI * j / M, x = cx + rx * Math.sin(p), y = cy + ry * Math.cos(p);
+    if (j) acc += Math.hypot(x - pts[j - 1].x, y - pts[j - 1].y);
+    pts.push({ x: x, y: y, s: acc });
+  }
+  const L = acc;
+  function at(s) {
+    s = ((s % L) + L) % L;
+    let lo = 0, hi = M;
+    while (hi - lo > 1) { const mid = (lo + hi) >> 1; if (pts[mid].s <= s) lo = mid; else hi = mid; }
+    const a = pts[lo], b = pts[lo + 1], t = (s - a.s) / ((b.s - a.s) || 1);
+    return { x: a.x + (b.x - a.x) * t, y: a.y + (b.y - a.y) * t, ang: Math.atan2(b.y - a.y, b.x - a.x) };
+  }
+
+  /* items around the ring: imam first, dividers every `every` beads */
+  const items = [{ t: 'imam', w: 2.4 }];
+  for (let i = 0; i < count; i++) {
+    if (i && i % every === 0) items.push({ t: 'div', w: .55 });
+    items.push({ t: 'bead', w: 1, i: i });
+  }
+  const W = items.reduce(function (a, b) { return a + b.w; }, 0);
+  const slot = L / W, r = slot * .5 * .96;
+  let cum = 0;
+  items.forEach(function (it) { it.c = (cum + it.w / 2 - 1.2) * slot; cum += it.w; });
+
+  const ring = el('g', { class: 'ring-shadow' }, svg);
+  el('ellipse', { cx: cx, cy: cy, rx: rx, ry: ry, fill: 'none', stroke: 'rgba(230,222,205,.28)', 'stroke-width': 1.2 }, ring);
+
+  const beads = [];
+  items.forEach(function (it) {
+    const p = at(it.c), deg = p.ang * 180 / Math.PI;
+    if (it.t === 'bead') {
+      const g = el('g', { transform: 'translate(' + p.x.toFixed(2) + ' ' + p.y.toFixed(2) + ')' }, ring);
+      const b = el('g', { class: 'bead', style: '--d:' + it.i }, g);
+      el('circle', { r: r.toFixed(2), fill: 'url(#' + uid + '-b' + Math.floor(rand() * pal.length) + ')' }, b);
+      el('ellipse', { cx: -r * .32, cy: -r * .38, rx: r * .34, ry: r * .2, fill: '#fff', opacity: .36, transform: 'rotate(-30 ' + (-r * .32) + ' ' + (-r * .38) + ')' }, b);
+      el('circle', { class: 'rim', r: r.toFixed(2) }, b);
+      beads[it.i] = b;
+    } else if (it.t === 'div') {
+      const g = el('g', { transform: 'translate(' + p.x.toFixed(2) + ' ' + p.y.toFixed(2) + ') rotate(' + deg.toFixed(1) + ')' }, ring);
+      const w = it.w * slot * .9, h = r * 2.5;
+      el('rect', { x: -w / 2, y: -h / 2, width: w, height: h, rx: Math.min(2, w / 2), fill: 'url(#' + uid + '-s)' }, g);
+    } else {
+      const g = el('g', { transform: 'translate(' + p.x.toFixed(2) + ' ' + p.y.toFixed(2) + ') rotate(' + deg.toFixed(1) + ')' }, ring);
+      const w = it.w * slot * .96, h = r * 2.3;
+      el('rect', { x: -w / 2, y: -h / 2, width: w, height: h, rx: h / 2, fill: 'url(#' + uid + '-s)' }, g);
+      [-.26, 0, .26].forEach(function (f) { el('line', { x1: w * f, y1: -h * .36, x2: w * f, y2: h * .36, stroke: 'rgba(0,0,0,.28)', 'stroke-width': 1 }, g); });
+    }
+  });
+
+  /* tail: thread, silver tail bead, cap and kazaz tassel */
+  const P0 = at(0), tx = P0.x, top = P0.y + r * 1.15;
+  el('line', { x1: tx, y1: top - 2, x2: tx, y2: top + 18, stroke: '#D8D1C0', 'stroke-width': 1.4 }, ring);
+  el('ellipse', { cx: tx, cy: top + 31, rx: 7.5, ry: 13, fill: 'url(#' + uid + '-s)' }, ring);
+  el('line', { x1: tx, y1: top + 44, x2: tx, y2: top + 54, stroke: '#D8D1C0', 'stroke-width': 1.4 }, ring);
+  const capY = top + 54;
+  const sx0 = tx, sy0 = capY + 16;
+  const n = 28;
+  for (let k = 0; k < n; k++) {
+    const u = k / (n - 1) - .5;
+    const len = 70 * (.88 + rand() * .22);
+    const ex = sx0 + u * 30 + (rand() - .5) * 4;
+    const sxk = sx0 + u * 7;
+    const col = rand() > .45 ? tas[0] : tas[1];
+    el('path', { d: 'M' + sxk.toFixed(1) + ' ' + sy0 + ' Q' + (sxk + u * 10).toFixed(1) + ' ' + (sy0 + len * .55).toFixed(1) + ' ' + ex.toFixed(1) + ' ' + (sy0 + len).toFixed(1), fill: 'none', stroke: col, 'stroke-width': 1.5, 'stroke-linecap': 'round' }, ring);
+  }
+  el('path', { d: 'M' + (tx - 5) + ' ' + capY + ' L' + (tx + 5) + ' ' + capY + ' L' + (tx + 8) + ' ' + (capY + 13) + ' L' + (tx - 8) + ' ' + (capY + 13) + ' Z', fill: 'url(#' + uid + '-s)' }, ring);
+  el('rect', { x: tx - 8.5, y: capY + 12, width: 17, height: 4, rx: 1.5, fill: '#B8904F' }, ring);
+
+  host.replaceChildren(svg);
+  return { svg: svg, beads: beads };
+}
+
+/* ==========================================================
+   HERO: dhikr counter on the live masbaha
+   ========================================================== */
+(function hero() {
+  const host = $('#heroArt');
+  const built = buildMasbaha(host, { count: 33, every: 11, material: 'aqeeq', scale: 1, tassel: 'oxblood', label: 'Aqeeq 33 masbaha with thirty-three natural aqeeq beads, two silver dividers and an oxblood tassel' });
+  if (!reduce) {
+    host.classList.add('animate');
+    setTimeout(function () { host.classList.remove('animate'); }, 1800);
+  }
+  const PH = [
+    { ar: 'سُبْحَانَ اللَّهِ', tr: 'SubḥānAllāh', en: 'Glory be to God' },
+    { ar: 'الْحَمْدُ لِلَّهِ', tr: 'Al-ḥamdu lillāh', en: 'Praise be to God' },
+    { ar: 'اللَّهُ أَكْبَرُ', tr: 'Allāhu akbar', en: 'God is the greatest' }
+  ];
+  let n = 0;
+  function render() {
+    const set = Math.min(Math.floor(n / 33), 2);
+    const pos = n >= 99 ? 33 : n % 33;
+    built.beads.forEach(function (b, i) {
+      b.classList.toggle('done', i < pos - 1);
+      b.classList.toggle('current', pos > 0 && i === pos - 1);
+    });
+    $('#dhikrAr').textContent = PH[set].ar;
+    $('#dhikrTr').textContent = PH[set].tr;
+    $('#dhikrEn').textContent = PH[set].en;
+    $('#dhikrCount').innerHTML = String(pos).padStart(2, '0') + '<span class="text-mute">/33</span>';
+    $('#dhikrNote').textContent = n >= 99 ? 'Ninety-nine complete. Tap again to begin a new round.' : 'Set ' + (set + 1) + ' of 3. Tap the beads to count your dhikr.';
+  }
+  function tick() { n = n >= 99 ? 1 : n + 1; render(); }
+  host.addEventListener('click', tick);
+  host.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); tick(); } });
+  $('#dhikrBtn').addEventListener('click', tick);
+  $('#dhikrReset').addEventListener('click', function () { n = 0; render(); });
+  render();
+})();
+
+/* ==========================================================
+   CORD DIAGRAM
+   ========================================================== */
+(function cordDiagram() {
+  const host = $('#cordDiagram');
+  const svg = el('svg', { viewBox: '0 0 720 300', role: 'img', 'aria-label': 'Cross-section showing two strands of cord passing through five beads, fused at a thermal bond on the left and closed in a loop on the right.', class: 'block h-auto w-full' });
+  const defs = el('defs', {}, svg);
+  const rg = el('radialGradient', { id: 'cd-b', cx: .5, cy: .5, r: .62, fx: .34, fy: .3 }, defs);
+  [[0, '#F0A978'], [.55, '#C4502A'], [1, '#4B160A']].forEach(function (p) { el('stop', { offset: p[0], 'stop-color': p[1] }, rg); });
+  const gg = el('radialGradient', { id: 'cd-g' }, defs);
+  el('stop', { offset: 0, 'stop-color': '#EBCB8C' }, gg);
+  el('stop', { offset: 1, 'stop-color': '#B8904F', 'stop-opacity': 0 }, gg);
+
+  const cy = 160, R = 50, xs = [172, 278, 384, 490, 596];
+  xs.forEach(function (x, i) {
+    const cp = el('clipPath', { id: 'cd-c' + i }, defs);
+    el('circle', { cx: x, cy: cy, r: R }, cp);
+    el('circle', { cx: x, cy: cy, r: R, fill: 'url(#cd-b)' }, svg);
+    el('ellipse', { cx: x - 16, cy: cy - 22, rx: 17, ry: 9, fill: '#fff', opacity: .3, transform: 'rotate(-30 ' + (x - 16) + ' ' + (cy - 22) + ')' }, svg);
+    el('rect', { x: x - R, y: cy - 10, width: R * 2, height: 20, fill: '#140905', 'clip-path': 'url(#cd-c' + i + ')' }, svg);
+  });
+
+  /* cord: out along the top strand, around the loop, back along the bottom strand */
+  const d = 'M72 ' + (cy - 5) + ' H662 a5 5 0 0 1 0 10 H72';
+  el('path', { d: d, fill: 'none', stroke: '#EFEADF', 'stroke-width': 4, 'stroke-linejoin': 'round' }, svg);
+  el('path', { d: d, fill: 'none', stroke: '#8F8672', 'stroke-width': 4, 'stroke-dasharray': '1.6 4.4', opacity: .75 }, svg);
+
+  /* thermal bond */
+  el('circle', { cx: 72, cy: cy, r: 30, fill: 'url(#cd-g)', opacity: .8 }, svg);
+  el('rect', { x: 58, y: cy - 11, width: 26, height: 22, rx: 8, fill: '#E4C07E', stroke: '#8E6B2E', 'stroke-width': 1.5 }, svg);
+
+  function badge(x, y, letter) {
+    el('circle', { cx: x, cy: y, r: 20, class: 'dg-badge' }, svg);
+    const t = el('text', { x: x, y: y, class: 'dg-letter' }, svg);
+    t.textContent = letter;
+  }
+  /* A: doubled strand, B: bond, C: loop, D: matched bore */
+  el('line', { x1: 331, y1: 62, x2: 331, y2: cy - 8, class: 'dg-leader' }, svg); badge(331, 42, 'A');
+  el('line', { x1: 72, y1: cy + 32, x2: 72, y2: 232, class: 'dg-leader' }, svg); badge(72, 252, 'B');
+  el('line', { x1: 667, y1: cy + 5, x2: 667, y2: 232, class: 'dg-leader' }, svg); badge(667, 252, 'C');
+  el('line', { x1: 596, y1: 62, x2: 596, y2: cy - R + 4, class: 'dg-leader' }, svg); badge(596, 42, 'D');
+  host.appendChild(svg);
+})();
+
+/* ==========================================================
+   PRODUCTS
+   ========================================================== */
+const SCALE = { '8': .9, '10': 1, '12': 1.1 };
+const TASSELS = [
+  { v: 'oxblood', t: 'Oxblood', c: '#7A1F27' },
+  { v: 'midnight', t: 'Midnight', c: '#2A3B6B' },
+  { v: 'ivory', t: 'Ivory', c: '#E9E0C9' },
+  { v: 'gold', t: 'Gold', c: '#C9A15B' }
+];
+const PRODUCTS = {
+  aqeeq33: {
+    name: 'Aqeeq 33', priceOpt: 'size',
+    opts: [
+      { id: 'size', label: 'Bead size', choices: [{ v: '8', t: '8 mm', price: 149 }, { v: '10', t: '10 mm', price: 169 }, { v: '12', t: '12 mm', price: 189 }], def: '8' },
+      { id: 'tassel', label: 'Kazaz tassel', choices: TASSELS, def: 'oxblood' }
+    ],
+    art: function (s) { return { count: 33, every: 11, material: 'aqeeq', scale: SCALE[s.size], tassel: s.tassel, label: 'Aqeeq 33 masbaha, ' + s.size + ' mm beads, ' + s.tassel + ' tassel' }; },
+    tag: function (s) { return s.size + ' mm'; }
+  },
+  oud99: {
+    name: 'Oud & Silver 99', priceOpt: 'size',
+    opts: [
+      { id: 'size', label: 'Bead size', choices: [{ v: '8', t: '8 mm', price: 249 }, { v: '10', t: '10 mm', price: 289 }], def: '8' },
+      { id: 'tassel', label: 'Kazaz tassel', choices: TASSELS, def: 'midnight' }
+    ],
+    art: function (s) { return { count: 99, every: 33, material: 'oud', scale: SCALE[s.size], tassel: s.tassel, label: 'Oud and Silver 99 masbaha, ' + s.size + ' mm beads, ' + s.tassel + ' tassel' }; },
+    tag: function (s) { return s.size + ' mm · 99 beads'; }
+  },
+  amber: {
+    name: 'Baltic Amber Collector', priceOpt: 'count',
+    opts: [
+      { id: 'count', label: 'Bead count', choices: [{ v: '33', t: '33 beads', price: 349 }, { v: '99', t: '99 beads', price: 489 }], def: '33' },
+      { id: 'tone', label: 'Amber tone', choices: [{ v: 'cognac', t: 'Cognac', c: '#C0701E' }, { v: 'honey', t: 'Honey', c: '#E0A02B' }, { v: 'butterscotch', t: 'Butterscotch', c: '#EDC15A' }], def: 'cognac' }
+    ],
+    art: function (s) { const c = +s.count; return { count: c, every: c === 33 ? 11 : 33, material: 'amber-' + s.tone, scale: 1, tassel: 'gold', label: 'Baltic amber masbaha, ' + s.count + ' beads, ' + s.tone + ' tone' }; },
+    tag: function (s) { return s.count + ' beads · 10 mm'; }
+  }
+};
+
+function optHTML(pid, o, sel, priceOpt) {
+  const base = o.choices[0].price;
+  const items = o.choices.map(function (c) {
+    const id = pid + '-' + o.id + '-' + c.v;
+    const sw = c.c ? '<i class="sw" style="background:' + c.c + '"></i>' : '';
+    const delta = (o.id === priceOpt && c.price > base) ? '<small class="num">+$' + (c.price - base) + '</small>' : '';
+    return '<span><input class="chip-input sr-only" type="radio" name="' + pid + '-' + o.id + '" id="' + id + '" value="' + c.v + '"' + (sel[o.id] === c.v ? ' checked' : '') + '><label class="chip" for="' + id + '">' + sw + c.t + delta + '</label></span>';
+  }).join('');
+  return '<fieldset class="m-0 min-w-0 border-0 p-0"><legend class="opt-label">' + o.label + '</legend><div class="mt-2 flex flex-wrap gap-2">' + items + '</div></fieldset>';
+}
+function priceOf(pid, sel) {
+  const P = PRODUCTS[pid];
+  return P.opts.find(function (o) { return o.id === P.priceOpt; }).choices.find(function (c) { return c.v === sel[P.priceOpt]; }).price;
+}
+function checkoutUrl(pid, sel) {
+  const P = PRODUCTS[pid];
+  const base = CONFIG.stripe[pid + ':' + sel[P.priceOpt]];
+  if (!base || base.indexOf('REPLACE') !== -1) return null;
+  const ref = [pid].concat(Object.keys(sel).map(function (k) { return k + '-' + sel[k]; })).join('_');
+  return base + (base.indexOf('?') === -1 ? '?' : '&') + 'client_reference_id=' + encodeURIComponent(ref);
+}
+$$('[data-product]').forEach(function (plate) {
+  const pid = plate.dataset.product, P = PRODUCTS[pid];
+  const sel = {};
+  P.opts.forEach(function (o) { sel[o.id] = o.def; });
+  $('[data-opts]', plate).innerHTML = P.opts.map(function (o) { return optHTML(pid, o, sel, P.priceOpt); }).join('');
+  const art = $('[data-art]', plate), tag = $('[data-size-tag]', plate), price = $('[data-price]', plate), buy = $('[data-buy]', plate);
+  function paint() {
+    buildMasbaha(art, P.art(sel));
+    tag.textContent = P.tag(sel);
+    const p = priceOf(pid, sel);
+    price.textContent = money.format(p);
+    const url = checkoutUrl(pid, sel);
+    buy.setAttribute('aria-label', 'Buy ' + P.name + ', ' + P.tag(sel) + ', ' + money.format(p) + ' Canadian dollars');
+    if (url) { buy.href = url; buy.target = '_blank'; buy.rel = 'noopener noreferrer'; buy.removeAttribute('data-pending'); }
+    else { buy.href = '#collection'; buy.removeAttribute('target'); buy.removeAttribute('rel'); buy.setAttribute('data-pending', '1'); }
+  }
+  plate.addEventListener('change', function (e) {
+    const t = e.target;
+    if (t.matches && t.matches('input[type=radio]')) { sel[t.name.slice(pid.length + 1)] = t.value; paint(); }
+  });
+  buy.addEventListener('click', function (e) {
+    if (buy.hasAttribute('data-pending')) { e.preventDefault(); toast('Checkout is not connected yet. Paste your Stripe Payment Link into CONFIG.stripe.'); }
+  });
+  paint();
+})
+
+/* ==========================================================
+   PRESENTATION BOX ILLUSTRATION
+   ========================================================== */
+;(function boxArt() {
+  const host = $('#boxArt');
+  const svg = el('svg', { viewBox: '0 0 640 440', role: 'img', 'aria-label': 'Illustration of a walnut slide-top box with an engraved Arabic lid, a dark microfibre pouch and a certificate of authenticity card with a QR code.', class: 'block h-auto w-full' });
+  const defs = el('defs', {}, svg);
+  const wg = el('linearGradient', { id: 'bx-w', x1: 0, y1: 0, x2: 1, y2: 1 }, defs);
+  [[0, '#7A5530'], [.5, '#5A3D22'], [1, '#6B4829']].forEach(function (p) { el('stop', { offset: p[0], 'stop-color': p[1] }, wg); });
+  const cp = el('clipPath', { id: 'bx-clip' }, defs);
+  el('rect', { x: 30, y: 28, width: 380, height: 262, rx: 6 }, cp);
+
+  /* lid */
+  el('rect', { x: 30, y: 28, width: 380, height: 262, rx: 6, fill: 'url(#bx-w)' }, svg);
+  const grain = el('g', { 'clip-path': 'url(#bx-clip)' }, svg);
+  const rr = rng(9);
+  for (let k = 0; k < 31; k++) {
+    const y = 36 + k * 8.4 + rr() * 3;
+    el('path', { d: 'M24 ' + y.toFixed(1) + ' q 100 ' + (rr() * 6 - 3).toFixed(1) + ' 200 0 t 200 ' + (rr() * 4 - 2).toFixed(1), fill: 'none', stroke: 'rgba(0,0,0,.2)', 'stroke-width': (.6 + rr() * .8).toFixed(2) }, grain);
+  }
+  el('rect', { x: 372, y: 28, width: 6, height: 262, fill: 'rgba(0,0,0,.28)' }, svg);
+  el('rect', { x: 48, y: 46, width: 312, height: 226, fill: 'none', stroke: 'rgba(214,178,112,.55)', 'stroke-width': 1 }, svg);
+  const ar1 = el('text', { x: 205, y: 173, 'text-anchor': 'middle', 'font-family': 'Amiri, serif', 'font-size': 62, fill: 'rgba(255,236,200,.22)' }, svg);
+  ar1.textContent = 'سُبْحَانَ اللَّهِ';
+  const ar2 = el('text', { x: 205, y: 171, 'text-anchor': 'middle', 'font-family': 'Amiri, serif', 'font-size': 62, fill: '#26160A', opacity: .92 }, svg);
+  ar2.textContent = 'سُبْحَانَ اللَّهِ';
+  const ref = el('text', { x: 205, y: 238, 'text-anchor': 'middle', 'font-family': 'IBM Plex Mono, monospace', 'font-size': 11, 'letter-spacing': 5, fill: '#26160A', opacity: .8 }, svg);
+  ref.textContent = 'AH-AQ33';
+
+  /* pouch */
+  el('rect', { x: 442, y: 40, width: 168, height: 212, rx: 12, fill: '#1B1916', stroke: 'rgba(255,255,255,.12)' }, svg);
+  el('rect', { x: 454, y: 52, width: 144, height: 188, rx: 8, fill: 'none', stroke: '#B8904F', 'stroke-width': 1, 'stroke-dasharray': '4 4', opacity: .55 }, svg);
+  el('path', { d: 'M472 40 C 472 76, 500 86, 526 86 S 580 76, 580 40', fill: 'none', stroke: '#B8904F', 'stroke-width': 1.6, opacity: .8 }, svg);
+  el('circle', { cx: 526, cy: 168, r: 22, fill: 'none', stroke: '#B8904F', 'stroke-width': 1.2, opacity: .8 }, svg);
+  el('circle', { cx: 526, cy: 168, r: 8, fill: '#B8904F', opacity: .8 }, svg);
+
+  /* authenticity card with a decorative QR-style grid */
+  const card = el('g', { transform: 'rotate(-3 470 360)' }, svg);
+  el('rect', { x: 330, y: 306, width: 290, height: 118, fill: '#E7DFCC', stroke: 'rgba(0,0,0,.25)' }, card);
+  const qr = rng(42), cell = 4.2, qx = 344, qy = 320, N = 21;
+  function finder(fx, fy) { return fx < 7 && fy < 7 || fx >= N - 7 && fy < 7 || fx < 7 && fy >= N - 7; }
+  for (let gy = 0; gy < N; gy++) for (let gx = 0; gx < N; gx++) {
+    let on;
+    if (finder(gx, gy)) {
+      const ax = gx < 7 ? gx : gx - (N - 7), ay = gy < 7 ? gy : gy - (N - 7);
+      on = (ax === 0 || ax === 6 || ay === 0 || ay === 6) || (ax >= 2 && ax <= 4 && ay >= 2 && ay <= 4);
+    } else on = qr() > .52;
+    if (on) el('rect', { x: qx + gx * cell, y: qy + gy * cell, width: cell, height: cell, fill: '#1C1916' }, card);
+  }
+  const ct1 = el('text', { x: 446, y: 336, 'font-family': 'Cormorant Garamond, serif', 'font-size': 19, 'font-weight': 600, fill: '#1C1916' }, card); ct1.textContent = 'Certificate of';
+  const ct2 = el('text', { x: 446, y: 356, 'font-family': 'Cormorant Garamond, serif', 'font-size': 19, 'font-weight': 600, fill: '#1C1916' }, card); ct2.textContent = 'authenticity';
+  const cs = el('text', { x: 446, y: 378, 'font-family': 'IBM Plex Mono, monospace', 'font-size': 10, 'letter-spacing': .8, fill: '#3B352C' }, card); cs.textContent = 'SERIAL AH-AQ33-0001';
+  const c1 = el('text', { x: 446, y: 398, 'font-family': 'Hanken Grotesk, sans-serif', 'font-size': 11, fill: '#3B352C' }, card); c1.textContent = 'Scan to verify your piece';
+  const c2 = el('text', { x: 446, y: 413, 'font-family': 'Hanken Grotesk, sans-serif', 'font-size': 11, fill: '#3B352C' }, card); c2.textContent = 'and lifetime re-stringing.';
+  host.appendChild(svg);
+})();
+
+/* ==========================================================
+   B2B: tiers table and quote dialog
+   ========================================================== */
+(function b2b() {
+  const base = priceOf('aqeeq33', { size: '8' });
+  $('#tierRows').innerHTML = CONFIG.tiers.map(function (t, i) {
+    const unit = Math.round(base * (1 - t.off) * 100) / 100;
+    return '<tr' + (i === 1 ? ' class="hl"' : '') + '><td class="num">' + t.label + '</td><td class="num">' + Math.round(t.off * 100) + '% off</td><td class="num">' + money2.format(unit) + '</td><td>' + t.includes + '</td></tr>';
+  }).join('');
+
+  const dlg = $('#quoteDialog'), form = $('#quoteForm'), done = $('#quoteDone');
+  const sel = $('#qProduct');
+  sel.innerHTML = Object.keys(PRODUCTS).map(function (pid) {
+    const P = PRODUCTS[pid];
+    const first = P.opts.find(function (o) { return o.id === P.priceOpt; }).choices[0];
+    return '<option value="' + pid + '">' + P.name.replace('&', '&amp;') + ' (from ' + money.format(first.price) + ')</option>';
+  }).join('');
+  function unitBase(pid) { const P = PRODUCTS[pid]; return P.opts.find(function (o) { return o.id === P.priceOpt; }).choices[0].price; }
+  function tierFor(q) { let hit = null; CONFIG.tiers.forEach(function (t) { if (q >= t.min) hit = t; }); return hit; }
+  function est() {
+    const q = parseInt($('#qQty').value, 10) || 0, pid = sel.value, b = unitBase(pid), t = tierFor(q);
+    const box = $('#qSummary');
+    if (!t) {
+      box.innerHTML = '<p class="text-[14.5px] text-mute">Bulk pricing starts at ' + CONFIG.tiers[0].min + ' pieces. For fewer, order from the collection.</p><a href="#collection" class="btn btn-line btn-sm mt-4" id="qToShop">Shop the collection</a>';
+      return null;
+    }
+    const unit = Math.round(b * (1 - t.off) * 100) / 100, total = Math.round(unit * q * 100) / 100;
+    box.innerHTML =
+      '<dl class="grid gap-3 text-[14.5px]">' +
+      '<div class="flex justify-between gap-4"><dt class="text-mute">List price</dt><dd class="num">' + money2.format(b) + '</dd></div>' +
+      '<div class="flex justify-between gap-4"><dt class="text-mute">Volume discount</dt><dd class="num">' + Math.round(t.off * 100) + '%</dd></div>' +
+      '<div class="flex justify-between gap-4"><dt class="text-mute">Per piece</dt><dd class="num">' + money2.format(unit) + '</dd></div>' +
+      '<div class="flex justify-between gap-4"><dt class="text-mute">Quantity</dt><dd class="num">' + q + '</dd></div>' +
+      '<div class="flex items-baseline justify-between gap-4 border-t border-ink/20 pt-4"><dt class="eyebrow">Estimate</dt><dd class="display num text-[2.2rem]">' + money2.format(total) + '</dd></div>' +
+      '</dl><p class="mt-4 text-[12.5px] leading-relaxed text-mute">Indicative, in CAD, before tax and delivery. Priced at the smallest size. Your confirmed quote follows by email.</p>';
+    return { unit: unit, total: total, off: t.off };
+  }
+  ['input', 'change'].forEach(function (ev) { form.addEventListener(ev, est); });
+  dlg.addEventListener('click', function (e) {
+    if (e.target === dlg) dlg.close();
+    if (e.target && e.target.id === 'qToShop') dlg.close();
+  });
+  dlg.addEventListener('close', function () { document.documentElement.classList.remove('dialog-open'); });
+  function openQuote(occasion) {
+    form.hidden = false; done.hidden = true;
+    if (occasion) {
+      const o = $('#qOccasion');
+      Array.from(o.options).forEach(function (op) { if (op.text === occasion) o.value = op.value; });
+    }
+    est();
+    document.documentElement.classList.add('dialog-open');
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+    const m = $('#mobileNav'); if (m && !m.hidden) { m.hidden = true; $('#menuBtn').setAttribute('aria-expanded', 'false'); }
+  }
+  $$('[data-open-quote]').forEach(function (b) { b.addEventListener('click', function () { openQuote(b.dataset.occasion); }); });
+  $('#quoteClose').addEventListener('click', function () { dlg.close(); });
+  $('#quoteCancel').addEventListener('click', function () { dlg.close(); });
+  $('#quoteDoneClose').addEventListener('click', function () { dlg.close(); });
+  $('#quoteBack').addEventListener('click', function () { form.hidden = false; done.hidden = true; });
+  $('#quoteCopy').addEventListener('click', function () { copyText($('#quoteDoneBody').value, $('#quoteDoneBody')); });
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if ($('#qHp').value) return;
+    const e1 = est();
+    if (!e1) { $('#qQty').focus(); return; }
+    const P = PRODUCTS[sel.value], f = new FormData(form);
+    const lines = [
+      'Bulk quote request: Aqeeq House',
+      '',
+      'Name: ' + f.get('name'),
+      'Company: ' + f.get('company'),
+      'Email: ' + f.get('email'),
+      'Phone: ' + (f.get('phone') || 'not given'),
+      'Piece: ' + P.name,
+      'Quantity: ' + f.get('quantity'),
+      'Occasion: ' + f.get('occasion'),
+      'Needed by: ' + (f.get('needed_by') || 'not given'),
+      'Box lid engraving: ' + (f.get('engraving') || 'none'),
+      'Indicative estimate: ' + money2.format(e1.total) + ' CAD (' + Math.round(e1.off * 100) + '% volume discount, before tax and delivery)',
+      'Notes: ' + (f.get('notes') || 'none')
+    ];
+    const text = lines.join('\n');
+    function showFallback() {
+      $('#quoteDoneEyebrow').textContent = 'Not sent yet';
+      $('#quoteDoneTitle').textContent = 'Email this request';
+      $('#quoteDoneText').innerHTML = 'Online sending is not connected on this page. Copy the request below and email it to <span class="mono text-ink">' + CONFIG.email + '</span>.';
+      $('#quoteDoneBody').value = text; form.hidden = true; done.hidden = false;
+    }
+    if (!CONFIG.quoteEndpoint) { showFallback(); return; }
+    const payload = {}; f.forEach(function (v, k) { if (k !== 'website') payload[k] = v; });
+    payload.estimate_cad = e1.total; payload.summary = text;
+    const btn = form.querySelector('button[type=submit]'); btn.disabled = true; btn.textContent = 'Sending';
+    fetch(CONFIG.quoteEndpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(payload) })
+      .then(function (r) {
+        btn.disabled = false; btn.textContent = 'Send quote request';
+        if (!r.ok) throw new Error('bad status');
+        $('#quoteDoneEyebrow').textContent = 'Request sent';
+        $('#quoteDoneTitle').textContent = 'Thank you';
+        $('#quoteDoneText').textContent = 'We have your request and will reply to ' + f.get('email') + ' within ' + CONFIG.quoteReply + '.';
+        $('#quoteDoneBody').value = text; form.hidden = true; done.hidden = false;
+      })
+      .catch(function () { btn.disabled = false; btn.textContent = 'Send quote request'; showFallback(); toast('Sending failed, so the request is ready to copy instead.'); });
+  });
+})();
+
+/* ==========================================================
+   WARRANTY LOOKUP
+   ========================================================== */
+(function warranty() {
+  const DEMO = {
+    'AH-AQ33-0001': { piece: 'Aqeeq 33, 10 mm', materials: 'Natural aqeeq, 925 sterling silver imam and dividers', strungOn: '2026-10-18', cord: 'Braided UHMWPE 0.15 mm, doubled-over', lot: 'AQ-2026-07' },
+    'AH-OD99-0001': { piece: 'Oud & Silver 99, 8 mm', materials: 'Aromatic agarwood, 925 sterling silver markers and imam', strungOn: '2026-10-24', cord: 'Braided UHMWPE 0.15 mm, doubled-over', lot: 'OD-2026-03' },
+    'AH-BA33-0001': { piece: 'Baltic Amber Collector, 33 beads, cognac', materials: 'Natural Baltic amber, 925 sterling silver imam and dividers', strungOn: '2026-11-02', cord: 'Braided UHMWPE 0.20 mm, doubled-over', lot: 'BA-2026-02' }
+  };
+  const FORMAT = /^AH-[A-Z0-9]{2,6}-\d{4}$/;
+  const out = $('#warrantyResult'), input = $('#serial');
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function fmtDate(iso) {
+    const d = new Date(iso + 'T12:00:00');
+    return isNaN(d) ? esc(iso) : d.toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' });
+  }
+  function show(rec, demo) {
+    out.innerHTML =
+      '<div class="flex flex-wrap items-center gap-2"><span class="badge"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 6.5l2.6 2.6L10 3.4"/></svg>Lifetime re-stringing active</span>' + (demo ? '<span class="badge muted">Example record</span>' : '') + '</div>' +
+      '<h3 class="display mt-4 text-[2rem]">' + esc(rec.piece) + '</h3>' +
+      '<p class="mono mt-1 text-[12px] tracking-[.12em] text-mute">' + esc(rec.serial) + '</p>' +
+      '<dl class="specs mt-5">' +
+      '<div><dt>Materials</dt><dd>' + esc(rec.materials) + '</dd></div>' +
+      '<div><dt>Strung</dt><dd>' + fmtDate(rec.strungOn) + '</dd></div>' +
+      '<div><dt>Cord</dt><dd>' + esc(rec.cord) + '</dd></div>' +
+      '<div><dt>Lot</dt><dd class="mono">' + esc(rec.lot) + '</dd></div>' +
+      '</dl>' +
+      '<div class="mt-6"><p class="flabel">Need your piece re-strung?</p><p class="flex flex-wrap items-center gap-3 text-[14.5px]"><span>Email your serial number to <span class="mono text-ink" id="rsEmail">' + esc(CONFIG.email) + '</span></span> <button type="button" class="btn btn-line btn-sm" id="rsCopy">Copy address</button></p></div>';
+    $('#rsCopy').addEventListener('click', function () { copyText(CONFIG.email, $('#rsEmail')); });
+  }
+  function problem(title, text) {
+    out.innerHTML = '<p class="display text-[1.6rem]">' + esc(title) + '</p><p class="mt-2 max-w-[52ch] text-[14.5px] text-mute">' + esc(text) + '</p>';
+  }
+  function lookup(serial) {
+    return fetch(CONFIG.warrantyEndpoint + '?serial=' + encodeURIComponent(serial), { headers: { Accept: 'application/json' } })
+      .then(function (r) {
+        if (r.status === 404) return { found: false };
+        if (!r.ok) throw new Error('bad status');
+        return r.json();
+      })
+      .catch(function () {
+        if (!CONFIG.demoRegistry) return { error: true };
+        const rec = DEMO[serial];
+        return rec ? Object.assign({ found: true, demo: true, serial: serial }, rec) : { found: false, demo: true };
+      });
+  }
+  function run(raw) {
+    const serial = String(raw || '').trim().toUpperCase();
+    if (!FORMAT.test(serial)) { problem('Check the serial format', 'Serials look like AH-AQ33-0001: AH, a product code, then four digits. You will find it under the QR code on your card.'); return; }
+    out.innerHTML = '<p class="text-[14.5px] text-mute">Looking up ' + esc(serial) + '</p>';
+    lookup(serial).then(function (d) {
+      if (d.error) problem('Lookup unavailable', 'We could not reach the warranty records. Please try again shortly, or email your serial number to ' + CONFIG.email + '.');
+      else if (!d.found) problem('No record for ' + serial, 'Check the code printed on your card, under the QR code. If it matches and still does not appear, email us with a photo of the card.');
+      else show(Object.assign({ serial: serial }, d), !!d.demo);
+    });
+  }
+  $('#warrantyForm').addEventListener('submit', function (e) { e.preventDefault(); run(input.value); });
+  $$('[data-serial]').forEach(function (b) { b.addEventListener('click', function () { input.value = b.dataset.serial; run(b.dataset.serial); }); });
+  const q = new URLSearchParams(location.search).get('s');
+  if (q) input.value = q;
+  run(input.value);
+})();
+
+/* ==========================================================
+   PAGE BEHAVIOUR: header, menu, anchors, reveal, email copy
+   ========================================================== */
+(function page() {
+  const header = $('#siteHeader');
+  function onScroll() { header.classList.toggle('scrolled', window.scrollY > 24); }
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  const menuBtn = $('#menuBtn'), mnav = $('#mobileNav');
+  menuBtn.addEventListener('click', function () {
+    const open = mnav.hidden;
+    mnav.hidden = !open;
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  });
+
+  document.addEventListener('click', function (e) {
+    if (e.defaultPrevented) return;
+    const a = e.target.closest && e.target.closest('a[href^="#"]');
+    if (!a) return;
+    const id = a.getAttribute('href');
+    if (id.length < 2) return;
+    const target = document.getElementById(id.slice(1));
+    if (!target) return;
+    e.preventDefault();
+    target.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+    if (!mnav.hidden) { mnav.hidden = true; menuBtn.setAttribute('aria-expanded', 'false'); menuBtn.setAttribute('aria-label', 'Open menu'); }
+  });
+
+  $('#copyEmail').addEventListener('click', function () { copyText(CONFIG.email, $('#emailText')); });
+
+  /* scroll reveal: blocks below the fold start dimmed and offset, then settle */
+  if (!reduce && 'IntersectionObserver' in window) {
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        const vh = window.innerHeight;
+        const io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.remove('rv-pre'); io.unobserve(en.target); } });
+        }, { rootMargin: '0px 0px -8% 0px', threshold: .04 });
+        $$('[data-rv]').forEach(function (n) {
+          if (n.getBoundingClientRect().top > vh * .9) { n.classList.add('rv-pre'); io.observe(n); }
+        });
+      }, 150);
+    });
+  }
+})();
+
+})();
+</script>
+</body>
+</html>
